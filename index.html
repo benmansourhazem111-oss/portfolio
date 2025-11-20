@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hazem Ben Mansour — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Portfolio de Hazem Ben Mansour — IoT, Android, Linux embarqué, IA">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Hazem Ben Mansour</h1>
+      <nav class="nav">
+        <a href="#about">À propos</a>
+        <a href="#interests">Centres d'intérêt</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Compétences</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>À propos</h2>
+      <p>Bonjour — je m'appelle <strong>Hazem Ben Mansour</strong>. Étudiant à l’ISET de Radès, je m'intéresse aux systèmes embarqués, à l'Internet des objets (IoT), au développement mobile Android, à Linux embarqué et à l'intelligence artificielle.</p>
+    </section>
+
+    <section id="interests" class="card">
+      <h2>Centres d'intérêt</h2>
+      <ul class="grid-list">
+        <li><h3>IoT & capteurs</h3><p>Prototypage avec ESP32.</p></li>
+        <li><h3>Android</h3><p>Développement mobile.</p></li>
+        <li><h3>Linux embarqué</h3><p>Bas niveau & optimisation.</p></li>
+        <li><h3>IA</h3><p>Détection d'anomalies & data.</p></li>
+        <li><h3>Sport</h3><p>Fitness et santé.</p></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <article class="project"><h3>Système IoT</h3><p>Monitoring ESP32.</p></article>
+        <article class="project"><h3>App Android</h3><p>API REST + SQLite.</p></article>
+        <article class="project"><h3>Linux embarqué</h3><p>Build Yocto.</p></article>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Compétences</h2>
+      <div class="skills">
+        <div class="skill"><span>ESP32</span></div>
+        <div class="skill"><span>Android</span></div>
+        <div class="skill"><span>Git</span></div>
+        <div class="skill"><span>HTML/CSS</span></div>
+        <div class="skill"><span>Linux</span></div>
+        <div class="skill"><span>Python</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:hazem@example.com">hazem@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Hazem Ben Mansour — Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
